@@ -1,0 +1,5 @@
+#Database Mapping
+#Mon Jun 20 11:55:23 CEST 2022
+mapToDatabaseConfiguration=Development Database
+dbConnectionDisplayName=Development Database
+showWarnings=true

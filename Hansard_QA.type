@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>11.3.0.1</version>
+    </saved-by-versions>
+    <file-type>type</file-type>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">GUID</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="0"/>
+      <property name="recordFieldType" class="String">Text</property>
+      <property name="required" class="Boolean" id="1">true</property>
+      <property name="useWhenComparingObjects" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">SittingDate</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.DateAttributeType"/>
+      <property name="recordFieldType" class="String">DateTime</property>
+      <property name="required" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Updated</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.DateAttributeType"/>
+      <property name="recordFieldType" class="String">DateTime</property>
+      <property name="required" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Topic</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType"/>
+      <property name="recordFieldType" class="String" id="2">Text</property>
+      <property name="required" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Debate</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType"/>
+      <property name="recordFieldType" idref="2"/>
+      <property name="required" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Volume</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="2"/>
+      <property name="required" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Text</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType"/>
+      <property name="recordFieldType" idref="2"/>
+      <property name="required" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">URL</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType"/>
+      <property name="recordFieldType" idref="2"/>
+      <property name="required" idref="1"/>
+    </object>
+  </property>
+</object>
